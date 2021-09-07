@@ -76,17 +76,23 @@ header a{
 .mainblue{
     margin-top: 25px;
     padding-bottom: 25px;
-    background-color: rgb(4, 126, 226);
-}
+/*     background-color: rgb(4, 126, 226);
+ */}
 
 
 
 
 
-.upper-blue-bar{
+.Leadership{
     margin-bottom: 25px;
-    background-color: paleturquoise;
-    height: 50px; 
+    background-color: paleturquoise;    
+}
+#leadership{
+    font-size: 40px;
+   
+}
+.titolo2{
+    margin: 40px 0;
 }
 
 .mainblue::after{
@@ -97,8 +103,8 @@ header a{
 
 .float{
     float: left;   
-    background-color: paleturquoise;
-    /* height: 200px; */
+/*     background-color: paleturquoise;
+ */    /* height: 200px; */
     border-radius: 8px;
     
 }
@@ -126,7 +132,12 @@ header a{
 
 .testo h3{
     padding: 10px 0;
-
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+.testo p{
+    color: grey;
+    font-weight: 500;
 }
 
 
@@ -146,10 +157,14 @@ header a{
 
 
 footer{
-    margin-top: 10px;
-    height: 60px;
-    background-color:rgb(128, 50, 128);
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
 }
+footer h3{
+    font-weight:400;
+}
+
 
 
 
