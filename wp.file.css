@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-container{
+    width: 950px;
+    margin: auto;
+}
+
+
+
+header img{
+    padding-right: 20px;
+    width: 200px;
+    border-right: 1px solid grey;
+}
+header ul{
+    margin-left: -10px;
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+header li{
+    display: inline-block;
+}
+header a{
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+
+.yellow{
+    margin-top: 25px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    /* opacity: 0.7; */
+    position: relative;
+    border-radius: 8px;
+}
+.overlay{
+    /* border-radius: 8px; */
+    background-color: rgb(105, 105, 105);
+    
+
+}
+.testo-prima-sezione{
+    bottom: 50px;
+    left: 40px;
+    position: absolute;
+    color: red;
+    padding-right: 30%;  
+}
+
+.testo-prima-sezione .titolo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.testo-prima-sezione .paragr{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+
+
+.mainblue{
+    margin-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(4, 126, 226);
+}
+
+
+
+
+
+.upper-blue-bar{
+    margin-bottom: 25px;
+    background-color: paleturquoise;
+    height: 50px; 
+}
+
+.mainblue::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+    
+    background-color: paleturquoise;
+    height: 200px;
+    
+}
+
+
+ .section aside{
+     width: 20%;
+     height: 500px;
+ }
+
+.colonna-centrale{  
+    width: calc(60% - 50px) ;
+    margin: 0px 25px ;
+    height: 500px;
+}
+
+/* fine main */
+
+
+
+footer{
+    margin-top: 10px;
+    height: 60px;
+    background-color:rgb(128, 50, 128);
+}
+
+
+
+/* PER ESERCIZIO SUCC */
+/* per lo sfondo scuro uso classe image overlay con ::before */
+/* tag ul e li per il menu display inline block e aggiungi tag a per i link li poi togli text decoration link */
+/* nav>ul>li>a  padding al tag a che contiene il testo, ricordati il display: i.b. per  a */
